@@ -1,5 +1,5 @@
 import { FC, useMemo, useState } from 'react';
-import { LOCAL_STORAGE_THEME_KEY, Theme, ThemeContext } from './ThemeContext';
+import { LOCAL_STORAGE_THEME_KEY, Theme, ThemeContext } from '../lib/ThemeContext';
 
 const isDeviceDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 const localTheme = localStorage.getItem(LOCAL_STORAGE_THEME_KEY);

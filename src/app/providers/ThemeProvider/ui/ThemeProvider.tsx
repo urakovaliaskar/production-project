@@ -11,13 +11,13 @@ const ThemeProvider: FC = ({ children }) => {
   const defaultProps = useMemo(() => ({
     theme,
     setTheme,
-  }), [theme])
+  }), [theme]);
 
   return (
     <ThemeContext.Provider value={defaultProps}>
       {children}
     </ThemeContext.Provider>
-  )
+  );
 };
 
 export default ThemeProvider;

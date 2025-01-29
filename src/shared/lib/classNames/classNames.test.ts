@@ -6,7 +6,11 @@ describe('classNames', () => {
   });
 
   test('with additional params', () => {
-    expect(classNames('someClass', {}, ['class1', 'class2'])).toBe('someClass class1 class2');
+    expect(classNames(
+      'someClass',
+      {},
+      ['class1', 'class2'],
+    )).toBe('someClass class1 class2');
   });
 
   test('with mods', () => {

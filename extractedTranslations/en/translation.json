@@ -1,5 +1,10 @@
 {
+  "Page Not Found": "Page Not Found",
   "about": "about",
   "lang": "lang",
-  "main": "main"
+  "main": "main",
+  "not_found": "not_found",
+  "page_error": "page_error",
+  "page_refresh": "page_refresh",
+  "throw_error": "throw_error"
 }

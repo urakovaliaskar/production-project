@@ -1,5 +1,9 @@
 {
-"test": "Test",
-"translate": "Translate",
-"lang": "English"
+  "test": "Test",
+  "translate": "Translate",
+  "lang": "English",
+  "not_found": "Page Not Found",
+  "page_error": "Something went wrong.",
+  "page_refresh": "Refresh the page",
+  "throw_error": "Throw Error"
 }

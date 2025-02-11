@@ -5,5 +5,6 @@
   "not_found": "Page Not Found",
   "page_error": "Something went wrong.",
   "page_refresh": "Refresh the page",
-  "throw_error": "Throw Error"
+  "throw_error": "Throw Error",
+  "toggle": "Toggle"
 }

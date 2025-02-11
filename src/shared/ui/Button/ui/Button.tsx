@@ -11,15 +11,17 @@ export enum ButtonTheme {
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
   theme?: string;
-};
+}
 
-export const Button: FC<ButtonProps> = ({ className, children, theme = ButtonTheme.CLEAR, ...attributes }) => {
-  return (
-    <button 
-      className={classNames(cls.button, {}, [className, cls[theme]])}
-      {...attributes}
-    >
-      {children}
-    </button>
-  );
-};
+export const Button: FC<ButtonProps> = ({
+  className, children, theme = ButtonTheme.CLEAR, ...attributes
+}) => (
+  <button
+    type="button"
+    className={classNames(cls.button, {}, [className, cls[theme]])}
+    onClick={attributes.onClick}
+    disabled={attributes.disabled}
+  >
+    {children}
+  </button>
+);
